@@ -1,1 +1,60 @@
 /*  your css code here. If applicable */
+.body{
+height:100vh;
+display:flex;
+	align-items:center;
+	justify-content:center;
+	background:#f6f7fb;
+	
+}
+.container{
+	/* max-width:400px; */
+	align-items:center;
+	width:50%;
+	margin:auto;
+}
+.steps{
+	display:flex;
+	width:100%;
+	align-items:center;
+	justify-content:space-between;
+	margin-bottom:5%;
+	/* list-style:none; */
+	}
+.button_container{
+	display:flex;
+	justify-content:space-evenly;
+	position:relative
+	transform:translateX(-50%);
+	/* z-index:-10; */
+}
+.steps .circle{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-weight:500;
+	height:20px;
+	width:20px;
+	text-align:center;
+	border:3px solid rgb(52,152,219);
+	padding:5px;
+	border-radius:50%;
+	/* z-index:10; */
+	position:relative;
+}
+.steps .progress-bar{
+	position:absolute;
+	height:4px;
+	width:100%;
+	background:black
+	;
+}
+.button_container button{
+	background-color:rgb(52,152,219);
+	color:white;
+	border:none;
+	padding-left:12px;
+	padding-right:12px;
+	padding-bottom:5px;
+	padding-top:5px;
+}
